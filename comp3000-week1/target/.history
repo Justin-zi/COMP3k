@@ -1,0 +1,10 @@
+run
+compile
+run 1
+run 2
+run 3
+run 0
+run
+run 1
+run 100
+exit
