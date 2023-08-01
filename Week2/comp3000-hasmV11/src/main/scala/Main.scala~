@@ -1,0 +1,77 @@
+/*
+ * This file is part of COMP3000 high-level assembly language.
+ *
+ * Copyright (C) 2021 Kym Haines, Macquarie University.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
+package org.mq.hasm
+
+/**
+  * The top level object of the application.
+  */
+object Main {
+
+  import Instr._
+
+  import scala.io.Source
+
+  /**
+    * Main entry point of the application.
+    *
+    * @param args the array of options and parameters passed on 
+    * the command line.
+    */
+  def main(args: Array[String]) {
+    val src = if(args.size >= 1)
+              {
+                // HAVE YOUR PROGRAM IN A FILE (without Txt)
+                // in sbt: run <filename>         // no trace
+                // in sbt: run <filename> y       // trace on
+                // can test with: run test.asm
+                // can test with: run test.asm  y    // trace on
+                // the file needs to be in the base directory of sbt project
+
+                if(!scala.reflect.io.File(args(0)).exists)
+                {
+                  println("File does not exist: " + args(0))
+                  return
+                }
+                val bufSrc = Source.fromFile(args(0)) // input from file
+                // read, split into lines, strip empty and comment-only lines
+                val lines = bufSrc.getLines.toList filter (line =>
+                             ((s:String) => !(s.isEmpty || s.startsWith("//")))
+                                         (line.dropWhile(_ == ' ')))
+                bufSrc.close  // close file
+ 
+                lines foreach println
+
+                lines map (s => Txt(s))
+                trace = args.size > 1 && args(1) != "n"
+              }
+              else
+              {
+                println("Usage: run <filename>\n       run <filename> y  (trace on)");
+              }
+
+    setHeapSize(100)
+    setStackSize(100)
+
+    displayQuadInstr(assignAddresses(src))
+
+    if(symbolsNotFound.size > 0)
+    {
+      println("Symbols not found:")
+      symbolsNotFound foreach println
+      return
+    }
+    if(!loadMemory()) return
+    displayMemory
+    exec(1000)    // allow at most 1000 instructions to be executed
+    displayRegisters
+    displayMemory
+  }
+}

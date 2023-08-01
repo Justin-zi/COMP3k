@@ -1,0 +1,9 @@
+run \MacquarieUni\COMP332_3000\2022\asm\oopsoln.asm
+run \MacquarieUni\COMP332_3000\2022\asm\oop.asm
+run \MacquarieUni\COMP332_3000\2022\asm\oopsoln.asm
+run \MacquarieUni\COMP332_3000\2022\asm\oop.asm
+run \MacquarieUni\COMP332_3000\2022\asm\oopsoln.asm
+run test.asm
+run loop.asm
+run stack.asm
+run fact.asm

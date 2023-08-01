@@ -1,0 +1,37 @@
+2023.08.01 17:27:46 INFO  Started: Metals version 1.0.0 in folders '/Users/justinling/Desktop/COMP3k/Week2' for client Visual Studio Code 1.80.1.
+Aug. 01, 2023 5:27:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug. 01, 2023 5:27:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug. 01, 2023 5:27:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/justinling/Desktop/COMP3k/Week2/.metals/metals (H2 2.1)
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug. 01, 2023 5:27:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.042s)
+2023.08.01 17:27:47 INFO  time: initialize in 1.25s
+2023.08.01 17:27:50 WARN  Build server is not auto-connectable.
+2023.08.01 17:27:50 WARN  no build target for: /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Main.scala
+2023.08.01 17:27:57 INFO  no build target found for /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.01 17:28:01 INFO  time: code lens generation in 10s
+2023.08.01 17:28:13 WARN  no build target for: /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Main.scala
+2023.08.01 17:28:19 WARN  no build target for: /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Instr.scala
+2023.08.01 17:28:26 INFO  time: code lens generation in 2.49s
+2023.08.01 17:28:26 INFO  time: code lens generation in 4.34s
+2023.08.01 17:34:45 WARN  no build target for: /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Main.scala

@@ -2409,3 +2409,18 @@ Caused by: java.nio.file.NoSuchFileException: /Users/justinling/Desktop/COMP3k/c
 2023.08.01 16:03:34 INFO  time: compiled COMP3k_bd2c96d2de in 0.93s
 2023.08.01 16:03:36 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
 2023.08.01 16:03:36 INFO  time: compiled COMP3k_bd2c96d2de in 0.51s
+2023.08.01 16:03:38 INFO  time: indexed workspace in 4.46s
+2023.08.01 16:03:38 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
+2023.08.01 16:03:42 INFO  time: compiled COMP3k_bd2c96d2de in 3.38s
+2023.08.01 16:03:50 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
+2023.08.01 16:03:50 INFO  time: compiled COMP3k_bd2c96d2de in 0.43s
+2023.08.01 16:03:52 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
+2023.08.01 16:03:52 INFO  time: compiled COMP3k_bd2c96d2de in 0.47s
+2023.08.01 16:03:57 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
+2023.08.01 16:03:57 INFO  time: compiled COMP3k_bd2c96d2de in 0.5s
+2023.08.01 16:04:05 INFO  compiling comp3k_bd2c96d2de (3 scala sources)
+2023.08.01 16:04:05 INFO  time: compiled COMP3k_bd2c96d2de in 0.47s
+2023.08.01 16:04:45 INFO  Shutting down server
+2023.08.01 16:04:45 INFO  shutting down Metals
+2023.08.01 16:04:45 INFO  Shut down connection with build server.
+2023.08.01 16:04:45 INFO  Exiting server
