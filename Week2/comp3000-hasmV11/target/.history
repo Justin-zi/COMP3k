@@ -7,3 +7,5 @@ run test.asm
 run loop.asm
 run stack.asm
 run fact.asm
+run factQuiz1.asm
+run sumInt.asm

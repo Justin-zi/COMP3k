@@ -35,3 +35,6 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 2023.08.01 17:28:26 INFO  time: code lens generation in 2.49s
 2023.08.01 17:28:26 INFO  time: code lens generation in 4.34s
 2023.08.01 17:34:45 WARN  no build target for: /Users/justinling/Desktop/COMP3k/Week2/comp3000-hasmV11/src/main/scala/Main.scala
+2023.08.03 17:22:06 INFO  Shutting down server
+2023.08.03 17:22:06 INFO  shutting down Metals
+2023.08.03 17:22:06 INFO  Exiting server
