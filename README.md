@@ -7,4 +7,6 @@ Formal languages play a central role in modern software development. Programming
 - ## Week 2 Functional Programming in Scala -> Quizz -> High Level Assembly Language 
 - ## Week 3 Functional Programming in Scala Continue -> Quizz -> Tracing Scala 
 - ## Week 4 Regex -> Quizz Regex Input / Output and how to
+- ## Week 5 Deriviations -> Parser Output / Syntax Tree 
+- ## Week 6 Parser Combinator -> exp ~ TP ~ ("A" ~> "B") ^^ {case exp ~ TP ~ "B" => func(exp, TP, "B") }
 
