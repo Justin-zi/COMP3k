@@ -3218,3 +3218,8 @@ INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.08.16 12:35:30 WARN  Build server is not auto-connectable.
 2023.08.16 12:35:30 WARN  no build tool detected in workspace '/Users/justinling/Desktop/COMP3k'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2023.08.16 12:35:32 INFO  compiling comp3k_bd2c96d2de (11 scala sources)
+2023.08.16 12:35:37 INFO  time: compiled COMP3k_bd2c96d2de in 5.16s
+2023.08.16 12:35:44 INFO  Shutting down server
+2023.08.16 12:35:44 INFO  shutting down Metals
+2023.08.16 12:35:45 INFO  Shut down connection with build server.
+2023.08.16 12:35:44 INFO  Exiting server

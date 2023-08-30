@@ -1,0 +1,70 @@
+1) Consider the following context-free grammar:
+
+P : S.
+S : '(' L ')' | 'a'.
+L : L ',' S | S.
+
+Using this grammar, write derivations of each of the following sentences. Draw syntax/parse trees corresponding to your derivations.
+
+- (a,a)
+
+P = S
+  = (L)
+  = (L, S)
+  = (S, a)
+  = (a, a)
+
+- (a,(a,a))
+
+P = S
+  = (L)
+  = (L, S)
+  = (S, (L))
+  = (a, (L,S))
+  = (a, (S, S)
+  = (a, (a, S)
+  = (a, (a, a)
+
+- ((a,(a,a)),a)
+
+P = S
+  = (L,S)
+  = ((L,S), S)
+  = ((S,S), S)
+  = ((a,S), S)
+  = ((a, (L)), S)
+  = ((a, (S)), S)
+  = ((a, (L,S)), S)
+  = ((a, (S,S)), S)
+  = ((a, (a, a)), a)
+
+- ((a, a, a))
+= Not possible
+
+
+2) Consider the following context-free grammar:
+
+Expr : Term | Term "+" Term.
+Term : Name | Integer | "(" Expr ")".
+
+where Name is a terminal symbol denoting names such as a, b, etc, and Integer is a terminal symbol denoting sequences of one or more digits.
+
+Using this grammar, write a derivation of the following sentence. Draw a syntax/parse tree corresponding to your derivation.
+
+3 + (b + 5)
+
+
+Exp = Term + Term
+    = Int + (Expr)
+    = 3 + (term + term)
+    = 3 + (name + Int)
+    = 3 + (b + 3)
+
+(A - 10) + 10
+
+Exp = Term + term
+    = term + Int
+    = (expr) + 10
+    = (Term + term) + 10
+    = (name + int) + 10
+    = (A - 10) + 10

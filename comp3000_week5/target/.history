@@ -1,0 +1,10 @@
+test
+run
+test
+run
+run input.exp
+run input
+run
+test
+testrun src
+run src/test/resources/input.exp

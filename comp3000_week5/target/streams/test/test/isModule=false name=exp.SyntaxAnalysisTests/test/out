@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSyntaxAnalysisTests in library/src/test/scala/exp:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing digits as a factor gives the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-integer as an integer gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a simple expression produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an expression with associative operators produces the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a complex expression is parsed correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an identifier factor gives the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a non-identifier as an identifier gives an error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a set statement gives the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an erroneous set statement fails[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing an expression statement gives the correct tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parsing a program gives the correct tree[0m[0m
