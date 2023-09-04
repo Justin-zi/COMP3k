@@ -1619,3 +1619,137 @@ Error downloading org.scalameta:mtags_2.12.8:1.0.1
 2023.08.30 16:38:55 WARN  unsupported Scala 2.12.8
 2023.08.30 16:38:55 INFO  Failed to resolve mtags for 2.12.8
 2023.08.30 16:38:55 WARN  unsupported Scala 2.12.8
+2023.08.30 16:39:48 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:39:48 WARN  unsupported Scala 2.12.8
+2023.08.30 16:39:48 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:39:48 WARN  unsupported Scala 2.12.8
+2023.08.30 16:39:48 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:39:48 WARN  unsupported Scala 2.12.8
+2023.08.30 16:39:48 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:39:48 WARN  unsupported Scala 2.12.8
+2023.08.30 16:39:50 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:39:50 WARN  unsupported Scala 2.12.8
+2023.08.30 16:42:46 INFO  Failed to resolve mtags for 2.12.8
+2023.08.30 16:42:46 WARN  unsupported Scala 2.12.8
+2023.08.30 17:00:53 ERROR Failed to fetch mtags for 2.12.8
+Error downloading org.scalameta:mtags_2.12.8:1.0.1
+  not found: /Users/justinling/.ivy2/local/org.scalameta/mtags_2.12.8/1.0.1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.8/1.0.1/mtags_2.12.8-1.0.1.pom
+  not found: /Users/justinling/.ivy2/local/org.scalameta/mtags_2.12.8/1.0.1/ivys/ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.8/1.0.1/mtags_2.12.8-1.0.1.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.8/1.0.1/mtags_2.12.8-1.0.1.pom
+2023.08.30 17:00:53 WARN  unsupported Scala 2.12.8
+2023.09.03 17:16:09 INFO  Shutting down server
+2023.09.03 17:16:09 INFO  shutting down Metals
+2023.09.03 17:16:11 INFO  Exiting server
+2023.09.04 16:10:18 INFO  Started: Metals version 1.0.1 in folders '/Users/justinling/Desktop/COMP3k/comp3000_week5' for client Visual Studio Code 1.81.0.
+Sep. 04, 2023 4:10:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep. 04, 2023 4:10:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep. 04, 2023 4:10:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep. 04, 2023 4:10:19 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/justinling/Desktop/COMP3k/comp3000_week5/.metals/metals (H2 2.1)
+Sep. 04, 2023 4:10:20 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.106s)
+Sep. 04, 2023 4:10:20 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep. 04, 2023 4:10:20 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.04 16:10:20 INFO  time: initialize in 2.77s
+2023.09.04 16:10:27 INFO  Attempting to connect to the build server...
+2023.09.04 16:10:27 INFO  Bloop uses /usr/local/Cellar/openjdk@11/11.0.20/libexec/openjdk.jdk/Contents/Home defined at /Users/justinling/.bloop/bloop.json
+2023.09.04 16:10:27 INFO  skipping build import with status 'Installed'
+2023.09.04 16:10:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinling/Desktop/COMP3k/comp3000_week5/.metals/bsp.trace.json or /Users/justinling/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.09.04 16:10:29 INFO  Attempting to connect to the build server...
+2023.09.04 16:10:29 INFO  Bloop uses /usr/local/Cellar/openjdk@11/11.0.20/libexec/openjdk.jdk/Contents/Home defined at /Users/justinling/.bloop/bloop.json
+2023.09.04 16:10:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/justinling/Desktop/COMP3k/comp3000_week5/project/.metals/bsp.trace.json or /Users/justinling/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.09.04 16:10:29 INFO  time: Connected to build server in 1.76s
+2023.09.04 16:10:29 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.04 16:10:41 INFO  no build target found for /Users/justinling/Desktop/COMP3k/comp3000_week5/src/main/scala/exp/SyntaxAnalysis.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.04 16:10:42 INFO  time: code lens generation in 14s
+2023.09.04 16:10:42 INFO  Shutting down server
+2023.09.04 16:10:42 INFO  shutting down Metals
+2023.09.04 16:10:42 INFO  Shut down connection with build server.
+2023.09.04 16:10:42 INFO  Shut down connection with build server.
+Sep. 04, 2023 4:10:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:44)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:349)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:349)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.09.04 16:10:42 INFO  Scala targets not supported by server
+Sep. 04, 2023 4:10:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:44)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:349)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:349)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:285)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:114)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.09.04 16:10:42 INFO  Scala targets not supported by server
